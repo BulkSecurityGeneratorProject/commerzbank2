@@ -1,0 +1,45 @@
+<div class="well">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="coverflow">
+                <div class="cover item a">Partnership</div>
+                <div class="cover item b">B</div>
+                <div class="cover item">Y</div>
+                <div class="cover item">Z</div>
+                <div class="cover item">Z</div>
+            </div>
+        </div>
+    </div>
+    <div id="partnership" class="row">
+        <div class="col-md-5 col-md-offset-3">
+            <form>
+                <div class="form-group">
+                    <label for="partner">Living with</label>
+                    <input class="form-control" id="partner" />
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
+</div>
+<script>
+    $(function() {
+        $('.coverflow').coverflow();
+        $(".a").click(function(){
+            $("#partnership").show();
+        });
+
+        $(".b").click(function(){
+            $("#partnership").hide();
+        });
+    });
+
+
+
+    $(function(cover,index){
+
+    });
+</script>

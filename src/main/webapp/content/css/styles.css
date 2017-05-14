@@ -1,0 +1,101 @@
+navbar-brand img {
+    height: 32px;
+}
+
+.navbar,
+.navbar.navbar-default {
+    border-bottom: 2px solid #fc3;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:hover,
+.navbar .navbar-nav>.active>a:focus {
+    color: #000;
+    background-color: #fc3;
+}
+
+.navbar .dropdown-menu .active>a,
+.navbar.navbar-default .dropdown-menu .active>a {
+    color: #000;
+    background: #e5e5e5;
+}
+
+.navbar .dropdown-menu .active>a:hover,
+.navbar.navbar-default .dropdown-menu .active>a:hover,
+.navbar .dropdown-menu .active>a:focus,
+.navbar.navbar-default .dropdown-menu .active>a:focus {
+    color: #000;
+}
+
+.navbar .dropdown-menu li>a:hover,
+.navbar.navbar-default .dropdown-menu li>a:hover,
+.navbar .dropdown-menu li>a:focus,
+.navbar.navbar-default .dropdown-menu li>a:focus {
+    color: #000;
+}
+
+
+/*!*!* inputs *!*!*/
+
+.form-group.is-focused .form-control {
+    outline: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fc3), to(#fc3)), -webkit-gradient(linear, left top, left bottom, from(#e5e5e5), to(#e5e5e5));
+    background-image: -webkit-linear-gradient(#fc3, #fc3), -webkit-linear-gradient(#e5e5e5, #e5e5e5);
+    background-image: -o-linear-gradient(#fc3, #fc3), -o-linear-gradient(#e5e5e5, #e5e5e5);
+    background-image: linear-gradient(#fc3, #fc3), linear-gradient(#e5e5e5, #e5e5e5);
+    -webkit-background-size: 100% 2px, 100% 1px;
+    background-size: 100% 2px, 100% 1px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.form-group label,
+.form-group label.control-label {
+    color: #fc3 !important;
+}
+
+.form-group.is-focused label,
+.form-group.is-focused label.control-label {
+    color: #fc3 !important;
+}
+
+.radio input[type=radio]:checked~.check {
+    background-color: #fc3 !important;
+}
+
+.radio input[type=radio]:checked~.circle {
+    border-color: #fc3 !important;
+}
+
+
+/*===================================================*/
+
+.cb-margin {
+    margin-top: 70px;
+}
+
+
+/*.cb-btn {}*/
+
+
+/*swiper css*/
+
+
+.item {
+
+    background: #fc3;
+    width: 200px;
+    height: 120px;
+    line-height: 150px;
+    font-size: x-large;
+    color: gray;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding-left: 2px;
+}
+
